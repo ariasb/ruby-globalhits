@@ -42,7 +42,7 @@ Steps to clone the repository and set up the project:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/ariasb/GlobalHits-Ruby.git
+    git clone https://github.com/ariasb/ruby-globalhits
     ```
 
 2.  **Navigate to the project directory:**
