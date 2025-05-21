@@ -1,0 +1,11 @@
+caps:
+  platformName: Android
+  deviceName: emulator-5554
+  automationName: UiAutomator2
+  appPackage: com.mercadolibre
+  appActivity: .navigation.activities.BottomBarActivity
+  newCommandTimeout: 300
+  noReset: true
+
+appium_lib:
+  server_url: http://127.0.0.1:4723/wd/hub

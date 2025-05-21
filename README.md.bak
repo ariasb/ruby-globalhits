@@ -1,0 +1,60 @@
+# Global Hits Exercise
+
+This is an automation framework using Selenium, Java, WebDriverManager, TestNG, ExtentReports, and Maven.
+
+## Table of Contents
+- [About](#about)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About
+
+This project provides automated tests for web applications using Selenium for browser interaction, Java as the programming language, WebDriverManager for managing browser drivers, TestNG as the testing framework, and ExtentReports for generating detailed test reports.
+
+### ExtentReports Customization
+
+The default behavior of ExtentReports listeners has been overridden to achieve specific reporting requirements for this project. Specifically for status on the results of the tests and Asserts.
+## Getting Started
+
+This section guides other developers on how to get your project running locally.
+
+### Prerequisites
+
+List of software and tools you need to have installed:
+
+- Git: For version control.
+- Java: Version 19 (as specified in the `pom.xml`).
+- Maven: For dependency management and building the project.
+- A Java IDE (IntelliJ IDEA, Eclipse, etc.) is recommended but not strictly required.
+
+### Installation
+
+Steps to clone the repository and set up the project:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ariasb/GlobalHits.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd GlobalHitsAutomation
+    ```
+
+3.  **Build the project and download dependencies using Maven:**
+    ```bash
+    mvn clean install
+    ```
+    This command will download all the necessary dependencies (Selenium, WebDriverManager, TestNG, ExtentReports) as defined in the `pom.xml` file.
+
+## Usage
+
+To run the automated tests, you can use the following Maven command:
+
+```bash
+mvn test
